@@ -24,7 +24,9 @@
 #include <QCommandLineParser>
 #include <QDebug>
 
+extern "C" {
 #include <xf86drmMode.h>
+}
 
 #include "logind.h"
 #include "udev.h"
